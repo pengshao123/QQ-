@@ -1,0 +1,277 @@
+html,body{
+	height: 100%;
+	
+}
+.songlist1 {
+	width: 100%;
+	height: 100%;
+	margin-bottom: .82rem;
+	position: relative;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.songlist-head {
+	width: 100%;
+	height: 2.5rem;
+	background: brown;
+	background-size: 100% 2rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: sticky;
+	top: 0;
+	left: 0;
+     z-index: 2;          
+}
+.return-logo {
+	position: relative;
+}
+.return-logo .list-text{
+	display: inline-block;
+	position: absolute;
+	left:45%;
+	color: white;
+}
+.logo{
+	width: .4rem;
+	height: 100%;
+	float: right;
+}
+.logo i{
+	background: url(../icons/三%20点竖%20着的.png);
+	background-size: cover;
+}
+.list-kong{
+	width: 3.25rem;
+	height: 1.6rem;
+	margin: .18rem .25rem;
+}
+.list-kongone{
+	width: 100%;
+	height: 1.2rem;
+}
+.list-img{
+	width: 1.2rem;
+	height: 1.2rem;
+	position: relative;
+	float: left;
+}
+.list-img span{
+	display: inline-block;
+	font-size: .12rem;
+	color: white;
+	position: absolute;
+	left: .1rem;
+	bottom: .05rem;
+}
+.list-fonnd{
+	width: 2.05rem;
+	height: 1.2rem;
+	float: left;
+}
+.list-fonndone{
+	width: 1.5rem;
+	height: 1rem;
+	margin:  .1rem 0;
+}
+.fonndone1{
+	padding-left: .05rem;
+	color: white;
+	font-size: .16rem;
+}
+.fonndone2{
+	padding-left: .05rem;
+	margin-top: .1rem;
+	height: .3rem;
+	line-height: .3rem;
+}
+.fonndone2 img{
+	width: .3rem;
+	height: .3rem;
+	border-radius: 50%;
+	float: left;
+}
+.fonndone2 span{
+	font-size: .13rem;
+	color: white;
+	float: left;
+	margin-left: .05rem;
+}
+.fonndone3{
+	padding-left: .05rem;
+	margin-top: .16rem;
+}
+.fonndone3 span{
+	font-size: .13rem;
+	color: white;
+}
+.list-fonndtwo{
+	width: 100%;
+	height: .4rem;
+	font-size: .13rem;
+	color: white;
+	position: relative;
+}
+.two{
+
+	height: .2rem;
+	position: absolute;
+	
+}
+.two i{
+	display: block;
+	width: .2rem;
+	height: .2rem;
+	float: left;
+}
+.two span{
+	margin-left: .05rem;
+	display: block;
+	line-height: .2rem;
+}
+.two1{
+	left: 0;
+	bottom: 0;
+}
+.two1 i{
+	background: url(../icons/心.png)no-repeat center center;
+	background-size: .2rem .2rem;
+}
+.two3{
+	right: 0;
+	bottom: 0;
+}
+.two3 i{
+	background: url(../icons/分享.png)no-repeat center center;
+	background-size: cover;
+}
+.two2{
+	left: 45%;
+	bottom: 0;
+}
+.two2 i{
+	background: url(../icons/评论.png)no-repeat center center;
+	background-size: cover;
+}
+.list-music{
+	flex: 1;
+	overflow-y: auto;
+	width: 100%;
+}
+.music-cat{
+	width: 100%;
+	border-bottom: 1px solid #E7E7E7;
+}
+.cat-text{
+	width: 3.5rem;
+	height: .5rem;
+	margin: 0 .125rem;
+
+}
+.cat-left{
+	float: left;
+	height: .5rem;
+}
+.cat-left i{
+	display: block;
+	width: .3rem;
+	height: .3rem;
+	background:url(../icons/播放.png) no-repeat center center;
+	background-size: .2rem;
+	margin: .1rem 0;
+	float: left;
+}
+.cat-left span{
+	float: left;
+	line-height: .5rem;
+	font-size: .16rem;
+	margin-left: .1rem;
+}
+.cat-left strong{
+	color: #8D8F95;
+	font-weight: normal;
+}
+.cat-right{
+	float: right;
+	height: .5rem;
+}
+.cat-right i{
+	float: left;
+	display: block;
+	width: .3rem;
+	height: .3rem;
+	margin: .1rem 0 .1rem .2rem;
+}
+.cat-right .i1{
+	background:url(../icons/下载.png) no-repeat center center;
+	background-size: .2rem;
+}
+.cat-right .i2{
+	background:url(../icons/列表4.png) no-repeat center center;
+	background-size: .2rem;
+}
+.cat-list{
+	width: 3.5rem;
+	margin: 0 .125rem;
+}
+.cat-list ul{
+	overflow: hidden;
+}
+.transmit .ul-li{
+	width: 3rem;
+}
+.music-else{
+	width: 100%;
+	margin-top: .2rem;
+}
+.else-text{
+	width: 100%;
+	height: .4rem;
+	line-height: .4rem;
+}
+.else-text .else-fl{
+	font-size: .14rem;
+	color: #000000;
+	font-weight: 500;
+}
+.else-text .else-fr{
+	font-size: .12rem;
+	color: #999999;
+	
+}
+.else-cannner{
+	width: 100%;
+}
+.canner-ul{
+	overflow: hidden;
+}
+.canner-li{
+	float: left;
+	margin-left: .1rem;
+}
+.canner-img{
+	width: 1.1rem;
+	height: 1.1rem;
+}
+.canner-text{
+	width: 1.1rem;
+	height: .8rem;
+}
+.canner-text1{
+	font-size: .16rem;
+	color: #000000;
+}
+.canner-text2{
+	font-size: .14rem;
+	color: #999999;
+	display: block;
+	max-width: 1.1zrem;
+	margin-top: .1rem;
+	white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+}
+.canner-li:nth-child(1){
+	margin-left: 0;
+}

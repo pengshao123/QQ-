@@ -1,0 +1,221 @@
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .65);
+	z-index: 20;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.QQ-recently{
+	width: 100%;
+	background: #1D242E;
+	height: 5rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	font-size: .14rem;
+	color: white;
+	overflow: hidden;
+}
+.recently-top{
+	width: 100%;
+	height: .5rem;
+	position: sticky;
+	top: 0;
+}
+.bottom{
+	border-bottom: 1px solid #7B7E86;
+}
+.top-fl{
+	height: .5rem;
+}
+.top-fl span{
+	line-height: .5rem;
+	margin: 0 .2rem;
+}
+.top-fr{
+	height: .5rem;
+	width: .9rem;
+}
+.fr-text{
+	width: .6rem;
+	height: .25rem;
+	margin:.125rem .15rem;
+	text-align: center;
+	line-height:.25rem;
+	border: 1px solid #33C27D;
+	color: #33C27D;
+	border-radius: .05rem;
+}
+.recently-empty{
+	width: 100%;
+	height: .5rem;
+	position: sticky;
+	top: .5rem;
+}
+.empty-fl{
+	font-size: .15rem;
+	height: 100%;
+}
+.empty-fl-logo{
+	margin: .13rem;
+}
+.empty-fl-logo i{
+	display: block;
+	width: .25rem;
+	height: .2rem;
+	background: url(../icons/循环.png)no-repeat;
+	background-size: .25rem .2rem;
+}
+.empty-fl .text1{
+	display: block;
+	height: 100%;
+	line-height: .5rem;
+	color: #FFFFFF;
+}
+.empty-fl .text1 .text2{
+	font-size: .13rem;
+	color: #8D8F95;
+}
+.empty-fr ul{
+	overflow: hidden;
+}
+.empty-fr li{
+	width: .6rem;
+	height: .5rem;
+	float: left;
+}
+.empty-fr li i{
+	display: block;
+	width: .2rem;
+	height: .2rem;
+	margin:.15rem .2rem;
+}
+.empty-fr li:nth-child(1) i{
+	background: url(../icons/下载2.png)no-repeat;
+	background-size: .2rem .2rem;
+}
+.empty-fr li:nth-child(2) i{
+	background:url(../icons/加2.png) no-repeat;
+	background-size: .2rem .2rem;
+}
+.empty-fr li:nth-child(3) i{
+	background:url(../icons/垃圾箱2.png) no-repeat;
+	background-size:.2rem .2rem;
+}
+.empty-list{
+	width: 100%;
+	overflow-y: auto;
+}
+.empty-uls{
+	overflow: hidden;
+	
+	overflow-y: auto;
+}
+.empty-uls li{
+	width: 100%;
+	float: left;
+	height: .5rem;
+	border-bottom: 1px solid #7B7E86;
+	padding: 0 .15rem;
+}
+.li-text{
+	height:.5rem;
+	line-height: .5rem;
+}
+.li-text .is{
+	display: block;
+	width: .2rem;
+	height: .2rem;
+	background: url(../icons/HQ.png)no-repeat;
+	background-size: cover;
+	margin: .15rem .1rem;
+}
+.li-text .cat{
+	display: block;
+	max-width: 1.5rem;
+	white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;	
+}
+.li-text .cpt{
+	display: block;
+	max-width:.9rem;
+	font-size: .13rem;
+	color: #7B7E86;
+	white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;	
+}
+.li-empty{
+	margin-right: .35rem;
+}
+.li-empty i{
+	width: .2rem;
+	height: .2rem;
+	margin:.15rem 0;
+	display: block;
+	background:url(../icons/垃圾箱2.png) no-repeat;
+	background-size:.2rem .2rem;
+}
+.note{
+	margin-left: .2rem;
+	height: 100%;
+	line-height: .5rem;
+}
+.empty-close{
+	width: 100%;
+	height: .5rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: .16rem;
+	text-align: center;
+	line-height: .5rem;
+	background: #7B7E86;
+	opacity: .3;
+	z-index: 10;
+}
+/* 字体颜色 */
+.green{
+	color: #3FBA80;
+}
+/* 动态音符 */
+.note .conding{
+	background-color:#3FBA80;
+	float: left;
+	width: .02rem;
+	height: .12rem;
+	margin: .19rem .01rem;
+}
+.note .conding:nth-child(1){
+  animation: loading .3s linear 0s infinite alternate;
+}
+
+.note .conding:nth-child(2){
+  animation: loading .3s linear .12s infinite alternate;
+}
+
+.note .conding:nth-child(3){
+  animation: loading .3s linear .06s infinite alternate;
+}
+
+.note .conding:nth-child(4){
+  animation: loading .3s linear .2s infinite alternate;
+}
+
+.note .conding:nth-child(5){
+  animation: loading .3s linear .18s infinite alternate;
+}
+@keyframes loading{
+	0% {
+	  transform:scaleY(.5);
+	}
+	
+	100% {
+	  transform:scaleY(1);
+	}
+}

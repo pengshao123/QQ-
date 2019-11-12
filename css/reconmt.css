@@ -1,0 +1,260 @@
+.anime-recomnt{
+	width: 100%;
+	display: none;
+	height: 100%;
+	margin-bottom: .82rem;
+	overflow-y: auto;
+	position: relative;
+}
+.bit{
+	width: 100%;
+	height: .24rem;
+}
+.reconmnt-return{
+	width: 100%;
+	height: 2rem;
+	background-size: 100% 2rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.return-logo{
+	width: 100%;
+	height: .3rem;
+}
+.fiex{
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	background: #000000;
+}
+.return-logo i{
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+	margin-left: .1rem;
+	margin-top: .025rem;
+	background: url(../icons/箭头1.png)no-repeat;
+	background-size: cover;
+}
+.return-text{
+	color: white;
+	font-size: .3rem;
+	position: absolute;
+	left: .2rem;
+	top: .8rem;
+}
+.official-return{
+	width: 100%;
+	height: 1.3rem;
+	position: relative;
+}
+.official-fals{
+	position: absolute;
+	width:3.4rem;
+	height: 1.3rem;
+	top: -.1rem;
+	left: .2rem;
+	background: white;
+	/* border: 1px solid #999999; */
+	box-shadow: 1px 1px 1px #999999;
+}
+.fals-1{
+	width: 100%;
+	height: .35rem;
+	margin-top: .15rem;
+}
+.fals-1 i{
+	display: block;
+	width:.2rem;
+	height: .2rem;
+	background: url(../icons/QQ音乐.png)no-repeat center center;
+	background-size: cover;
+	margin-left: .2rem;
+	float: left;
+}
+.fals-1 span{
+	font-size: .17rem;
+	float: left;
+	margin-left: .1rem;
+}
+.fals-2{
+	color: #C2C2C2;
+	font-size: .12rem;
+	padding:0 0 .08rem 0rem;
+	border-bottom: 1px solid #F4F4F4;
+}
+.fals-2 span{
+	margin-left: .2rem;
+}
+.fals-3{
+	width: 100%;
+	height: .4rem;
+	position: absolute;
+	bottom: 0;
+}
+.fals-rt{
+	width: 1rem;
+	height: 100%;
+	float: right;
+}
+.fals-rt .i1{
+	display: block;
+	width: .23rem;
+	height: .2rem;
+	background: url(../icons/心%20爱心.png)no-repeat;
+	background-size: cover;
+	margin-top: .1rem;
+	float: left;
+}
+.fals-rt span{
+	font-size: .12rem;
+	color: #999999;
+	float: left;
+	line-height: .4rem;
+	margin-left: .05rem;
+}
+.fals-rt .i2{
+	display: block;
+	width: .23rem;
+	height: .2rem;
+	background:url(../icons/转发%20.png) no-repeat;
+	background-size: cover;
+	margin-top: .1rem;
+	float: right;
+	margin-right: .1rem;
+}
+.official-list{
+	overflow: hidden;
+}
+.official-list .list{
+	width: 100%;
+	height: .4rem;
+	border-bottom: 1px solid #E4E4E4;
+}
+.list-fl i{
+	display: block;
+	width: .23rem;
+	height: .23rem;
+	background: url(../icons/播放.png)no-repeat;
+	background-size: cover;
+	margin-top: .05rem;
+	margin-left: .1rem;
+	float: left;
+}
+.list-fl span{
+	font-size: .14rem;
+	color: #000000;
+	float: left;
+	display: block;
+	line-height: .35rem;
+	margin-left: .1rem;
+}
+.list-fl p{
+	font-size: .13rem;
+	color: #999999;
+	float: left;
+	display: block;
+	line-height: .35rem;
+}
+.list-fr i{
+	display: block;
+	width: .23rem;
+	height: .23rem;
+	margin-top: .05rem;
+
+	float: left;
+}
+.list-fr{
+	margin-right: .15rem;
+}
+.list-fr .inst1{
+	background:url(../icons/下载.png) no-repeat;
+	background-size: cover;
+ margin-right: .2rem;
+}
+.list-fr .inst2{
+	background:url(../icons/列表4.png) no-repeat;
+	background-size: cover;
+	margin-left: .1rem;
+}
+.list-ul{
+	overflow: hidden;
+}
+.transmit{
+	width: 100%;
+	float: left;
+	height: .45rem;
+}
+.con{
+	background-color: rgb(0,0,0,.2);
+}
+.transmit .span{
+	line-height:.45rem;
+	width: .45rem;
+	text-align: center;
+	display: block;
+	float: left;
+}
+.transmit .ul-li{
+	width: 3.3rem;
+	height: .44rem;
+	float: left;
+	border-bottom: 1px solid #E4E4E4 ;
+}
+.ul-li img{
+	display: none;
+}
+.ul-lileft{
+	overflow: hidden;
+	max-width: 2.3rem;
+	white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+}
+.ul-lileft .sp1{
+	display: block;
+    font-size: .14rem;
+	margin-top: .05rem;
+	color:black;
+}
+.ul-lileft .ick strong{
+	display: block;
+    font-size: .12rem;
+	color:#999999;
+}
+
+
+.ul-liright{
+	float: right;
+	height: 100%;
+}
+.ul-liright i{
+	display: block;
+	width: .23rem;
+	height: .23rem;
+	margin-top: .1rem;	
+	float: left;
+}
+.ul-liright .i11{
+	background:url(../icons/播放3.png) no-repeat;
+	background-size: cover;
+}
+.ul-liright .i12{
+	background:url(../icons/三个点.png)no-repeat;
+	background-size: cover;
+	margin-left: .2rem;
+}
+.ick i{
+	display: block;
+	width: .16rem;
+	height: .16rem;
+	background: url(../icons/HQ.png)no-repeat;
+	background-size: cover;
+	margin-top: .02rem;
+}
+.ick strong{
+	font-weight: normal;
+	margin-left: .1rem;
+}

@@ -1,0 +1,574 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	color: #000000;
+	font-size: .2rem;
+}
+li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.QQmusic{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	position: relative;
+}
+.QQ-bit{
+	width: 100%;
+	height: .24rem;
+	background: #000000;
+  
+}
+.header{
+	position: sticky;
+	top: 0;
+	 z-index: 3;
+	 background: #31C27D;
+	 width: 100%;
+	 overflow: hidden;
+	 /* display: none; */
+}
+.QQ-heard{
+	width: 100%;
+	height: .65rem;
+	
+}
+.heard-fl{
+	width:.8rem;
+	height: 100%;
+}
+.heard-fl a{
+	display:block;
+	width: .3rem;
+	height: .24rem;
+	background: url(../icons/列表.png)no-repeat center center;
+	background-size: cover;
+	margin: .2rem .25rem;
+}
+.heard-fr a{
+	display:block;
+	width: .3rem;
+	height: .3rem;
+	background: url(../icons/加.png) no-repeat center center;
+	background-size: cover;
+	margin: .17rem .24rem;
+}
+.heard-fz{
+	width:2.15rem;
+	height: 100%;
+}
+.heard-fz ul{
+	overflow: hidden;
+	margin-top: .2rem;
+}
+.heard-fz ul li{
+	float: left;
+	font-size: .22rem;
+	height: 100%;
+	color: white;
+	line-height: 100%;
+	margin-left: .18rem;
+}
+.QQ-heard1{
+	width: 100%;
+	position: relative;
+	background: #F4F4F4;
+}
+.QQ-heard1 ul{
+	overflow: hidden;
+	width: 100%;
+}
+.QQ-heard1 ul li{
+	width: 20%;
+	height: .5rem;
+	float: left;
+	font-size: .2rem;
+	text-align: center;
+	line-height: .5rem;
+}
+.hover{
+	color: #03E198;
+}
+.QQ-heard1 .i1{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: .75rem;
+	height: .03rem;
+	background-color: #03E198;
+}
+.QQ-search{
+	width:calc(100%-.24rem);
+	overflow: hidden;
+	position: relative;
+}
+.QQ-search .search-ss{
+	width: 3.4rem;
+	height: .33rem;
+	margin:.08rem .16rem;
+	outline: none;
+	background: rgb(42,170,109);
+	border: none;
+    text-indent: .1rem;
+	z-index: 3;
+}
+.search-btn{
+	width: 3.4rem;
+	height: .33rem;
+	position: absolute;
+	left: .16rem;
+	top: .08rem;
+	z-index: 1;
+}
+/* 中间内容 */
+/* 轮播图 */
+.QQ-text{
+	height: 10rem;
+	background: #FFFFFF;
+    overflow-y: auto;
+	margin-bottom: .82rem;
+	/* display: none; */
+}
+.text-font{
+	width: 100%;
+	height: 1.5rem;
+}
+.img-box{
+	width: 100%;
+}
+/* end */
+.list-box{
+	width: 100%;
+	height: .8rem;
+	position: relative;
+}
+.txt-list{	
+	width: 3.52rem;
+	height: .8rem;
+	margin: 0 .1rem;
+	background: #FFFFFF;
+	border-radius: .05rem;
+	box-shadow: .01rem .01rem .05rem #999999;
+	position: absolute;
+	top: -.13rem;
+}
+.txt-list ul{
+	width: 100%;
+	height: 100%;
+}
+.txt-list ul li{
+	float: left;
+	width: 20%;
+	height: .8rem;
+}
+.img-list1{
+	width: 100%;
+	/* height: .45rem; */
+	overflow: hidden;
+}
+.img-list1 .ls{
+	background: url(../icons/人像.png)no-repeat center center;
+	background-size: cover;
+}
+.img-list1 .ls1{
+	background:url(../icons/排行榜.png) no-repeat center center;
+	background-size: cover;
+}
+.img-list1 .ls2{
+	background:url(../icons/分类%20.png) no-repeat center center;
+	background-size: cover;
+}
+.img-list1 .ls3{
+	background:url(../icons/电台.png) center center;
+	background-size: cover;
+}
+.img-list1 .ls4{
+	background:url(../icons/Icon%20-%20视频会诊.png) center center;
+	background-size: cover;
+}
+.img-list1 span{
+	display: block;
+	width: .3rem;
+	height: .3rem;
+	margin: .1rem .202rem 0 .202rem;
+}
+.img-list2{
+	width: 100%;
+	height: .4rem;
+	font-size: .15rem;
+	font-weight: 500;
+	text-align: center;
+}
+.img-list2 p{
+	padding-top: .05rem;
+}
+.list-radio{
+	width: 100%;
+	overflow: hidden;
+}
+.radio-fl{
+	width: 1.4rem;
+	height: 1.4rem;
+	position: relative;
+}
+.info-img1{
+	width: .8rem;
+	height: .8rem;
+	background: rgb(230,230,230,.7);
+	position: absolute;
+	top: .3rem;
+	right: 0;
+}
+.info-img2{
+	width: .9rem;
+	height: .9rem;
+	background: rgb(230,230,230,.8);
+	position: absolute;
+	top: .25rem;
+	right: .03rem;
+}
+.info-img3{
+	width: 1.2rem;
+	height:1.2rem;
+	background: rgb(230,230,230,.5);
+	position: absolute;
+	top: .08rem;
+	right: .07rem;
+}
+.info-logo{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 1.2rem;
+	height:1.2rem;
+	font-size: .16rem;
+	color: #FFFFFF;
+}
+
+.info-logo i{
+	display: inline-block;
+	width: .3rem;
+	height: .3rem;
+	background: url(../icons/播放2.png)no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: .5rem;
+	top: .4rem;
+}
+.info-logo span{
+	position: absolute;
+	bottom: .1rem;
+	left: .3rem;
+}
+.radio-fr{
+	width: 2.1rem;
+	height: 1.4rem;
+	margin-left: .1rem;
+}
+.radio-fr .img-top{
+	width: 100%;
+	height: .55rem;
+	margin-top: .09rem;
+	background: #F5F5F5;
+	position: relative;
+}
+.img-span{
+	width:1.3rem;
+	height: .55rem;
+	font-size: .16rem;
+}
+.img-span span{
+	display: inline-block;
+	width:1.1rem;
+	height: .275rem;
+	padding-left: .2rem;
+	white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;	
+}
+.img-span span:nth-child(1){
+	line-height: .275rem;
+}
+.img-span span:nth-child(2){
+	font-size: .14rem;
+	color: #A5A5A5;
+}
+.img-src{
+	width: .55rem;
+	height: .55rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.radio-fr .img-bottom{
+	width: 100%;
+	height: .55rem;
+	margin-top: .09rem;
+	background: #F5F5F5;
+	position: relative;
+}
+/* 歌单 */
+.list-song{
+	width: 100%;
+}
+.songlist{
+	width: 100%;
+}
+.song-car{
+	width: 100%;
+	height: .45rem;
+	line-height: .45rem;
+	text-align: center;
+	position: relative;
+}
+.song-car i{
+	position: absolute;
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+	background: url(../icons/箭头.png)no-repeat center center;
+	background-size: cover;
+	right: .2rem;
+	top: 0.075rem;
+}
+.song-gaine{
+	width: 100%;
+	
+}
+.song-gaine ul,.album-list ul{
+	overflow: hidden;
+}
+.song-gaine ul li,.album-list ul li{
+	width:1.2rem;
+	height:1.5rem;
+	float: left;
+	margin-left: .07rem;
+}
+.song-gaine ul li:nth-child(3n-2),.album-list ul li:nth-child(3n-2){
+	margin-left: 0;
+}
+.uls-img{
+	width:1.2rem;
+	height: 1.2rem;
+	position: relative;
+}
+.img-logo{
+	width: 100%;
+	height: .3rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgb(0,0,0,.1);
+}
+.logo-fl{
+	
+}
+.logo-fl i{
+	display: inline-block;
+	width: .2rem;
+	height: .2rem;
+	background: url(../icons/耳机%20%20语音.png)no-repeat center center;
+	background-size: cover;
+	margin-top: .05rem;
+	color: #FFFFFF;
+}
+.logo-fl span{
+	display: inline-block;
+	height: .3rem;
+	line-height: .3rem;
+	font-size: .12rem;
+	color:#FFFFFF;
+	margin-left: .1rem;
+}
+.logo-fr{
+	height: .3rem;
+}
+.logo-fr i{
+	display: inline-block;
+	height: .3rem;
+	width: .3rem;
+	background: url(../icons/播放1.png)no-repeat center center;
+	background-size: cover;
+}
+.uls-text{
+	width: 100%;
+	height: .3rem;
+	text-indent: .1rem;
+	line-height: .3rem;
+	font-size: .14rem;
+	white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;	
+}
+.song-btn{
+	width: 100%;
+	height: .4rem;
+	margin-top: .1rem;
+}
+.song-btn .btn{
+	width: 1.2rem;
+	height: .3rem;
+	margin: .05rem auto;
+	border: 1px solid #D9D9D9;
+	border-radius: .05rem;
+}
+.song-btn .btn i{
+	display: inline-block;
+	width: .15rem;
+	height:.15rem;
+	background: url(../icons/刷新_refresh52.png)no-repeat;
+	background-size: cover;
+	margin-left: .3rem;
+	margin-top: .075rem;
+}
+.song-btn .btn span{
+	display: inline-block;
+	height: 100%;
+	line-height: .3rem;
+	font-size: .15rem;
+	margin-left: .1rem;
+}
+/* 专辑 */
+.QQ-album{
+	width: 100%;
+	margin-top: .1rem;
+}
+/* 底部 */
+.QQ-bottom{
+	width: 100%;
+	height: .8rem;
+	position: fixed;
+	
+	left: 0;
+	bottom: 0;
+	background: #FFFFFF;
+	border-top: .02rem solid #DFDFDF;
+}
+.QQ-bottom .bar{
+	width: 100%;
+	font-size: .12rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.bar-jindu{
+	height: .05rem;
+	position: relative;
+	background: #F4F4F4;
+	
+	z-index: 3;
+	width: 3rem;
+	top: -0.1rem;
+	left: .35rem;
+}
+.clearfix::after{
+  display: block;
+  content: '';
+  clear: both;
+}
+.bar-jindu1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: .05rem;
+	width: 25%;
+	background:#B7DAFF;
+}
+.mask{
+	width: .12rem;
+	height: .12rem;
+	position: absolute;
+	left: 0;
+	top:-0.04rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	border: .01rem solid #999999;
+}
+.new-jindu{
+	position: absolute;
+	width: 100%;
+	top: -0.04rem;
+	height: .12rem;
+}
+.QQ-font{
+	width: 100%;
+	height: .58rem;
+}
+
+.font-img{
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	margin: .06rem  .06rem .0rem .13rem;
+}
+/* //头像转动 */
+.active{
+	animation: avatar 15s linear 0s infinite;
+}
+@keyframes  avatar{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+/* //头像音符 */
+
+.font-text{
+	font-size: .13rem;
+	width: 1.3rem;
+	height: 100%;
+	margin-top: .1rem;
+}
+.sp1{
+	font-size: .17rem;
+}
+.sp2{
+	color: #49B580;
+}
+.font-text span{
+	width: 100%;
+	display: inline-block;	
+ white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;	
+}
+.font-fr{
+	width: 1.5rem;
+	height: .58rem;
+}
+.font-size1{
+	width: .7rem;
+	height: 100%;
+	float: left;
+}
+.font-size1 i{
+	display: inline-block;
+	width: .3rem;
+	height: .3rem;	
+	margin: .14rem .15rem .0rem .15rem;
+}
+.font-size1 .i1{
+	background: url(../icons/播放.png)no-repeat center center;
+	background-size: .3rem .3rem;
+	margin-right: 0;
+	margin-left: .3rem;
+}
+.font-size1 .i2{
+	background: url(../icons/音符列表.png)no-repeat center center;
+	background-size: cover;
+}
+
